@@ -1,0 +1,65 @@
+material 1404380066_1_Color_A01
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 0.0 0.0
+      diffuse 1.0 0.0 0.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404380066_2_Color_006
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.337254901960784 0.337254901960784 0.337254901960784
+      diffuse 0.337254901960784 0.337254901960784 0.337254901960784
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404380066_3_Color_I06
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.0 0.0 0.8
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404380066_4_Color_002
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.776470588235294 0.776470588235294 0.776470588235294
+      diffuse 0.776470588235294 0.776470588235294 0.776470588235294
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404380066_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

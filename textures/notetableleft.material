@@ -1,0 +1,320 @@
+material 1404479658_1_preto_s0w8sg_dell_insp
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.0 0.0 0.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_2_logo_note_dell_01s84012f
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.87843137254902 0.87843137254902 0.87843137254902
+      diffuse 0.87843137254902 0.87843137254902 0.87843137254902
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_3_USbcaboinsp_dell_f5e090
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.227450980392157 0.227450980392157 0.227450980392157
+      diffuse 0.227450980392157 0.227450980392157 0.227450980392157
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_4_LAN_Goldfhj0e810
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.8 0.603921568627451 0.243137254901961
+      diffuse 0.8 0.603921568627451 0.243137254901961
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_5_corcinza_dell_insp_sd0fs5g
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.63921568627451 0.63921568627451 0.63921568627451
+      diffuse 0.63921568627451 0.63921568627451 0.63921568627451
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_6_led_ligado_desl_dell_insp_le05f90015
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.184313725490196 0.764705882352941 0.219607843137255
+      diffuse 0.184313725490196 0.764705882352941 0.219607843137255
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_7_Color_005
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.447058823529412 0.447058823529412 0.447058823529412
+      diffuse 0.447058823529412 0.447058823529412 0.447058823529412
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_8_azul_note_insp_sw0w8ghs24
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.603921568627451 0.666666666666667 0.694117647058824
+      diffuse 0.603921568627451 0.666666666666667 0.694117647058824
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_9_borrachinha_tampa_note_dell_012fhejgf
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0470588235294118 0.0470588235294118 0.0470588235294118
+      diffuse 0.0470588235294118 0.0470588235294118 0.0470588235294118
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_10_cinza_escuro_8w4g158
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0549019607843137 0.0627450980392157 0.0627450980392157
+      diffuse 0.0549019607843137 0.0627450980392157 0.0627450980392157
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_11_teclas_note_dell_insp_900hw45ag
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0588235294117647 0.0588235294117647 0.0588235294117647
+      diffuse 0.0588235294117647 0.0588235294117647 0.0588235294117647
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_12_base_maos_dell_inspiron_bd51a26
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.666666666666667 0.666666666666667 0.666666666666667
+      diffuse 0.666666666666667 0.666666666666667 0.666666666666667
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_13_corpreta_dell_inspw940b15
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0 0.0 0.0
+      diffuse 0.0 0.0 0.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_14_vidro_camera_dell_inspw8dg15
+{
+  technique
+  {
+    pass
+    {
+      scene_blend alpha_blend
+      depth_check on
+      depth_write off
+      ambient 0.0 0.0 0.0 0.05
+      diffuse 0.0 0.0 0.0 0.05
+      specular 0.0 0.0 0.0 0.05 0.0
+      emissive 0.0 0.0 0.0 1.0
+    }
+  }
+}
+material 1404479658_15_tela_notedell_insp_ws0w8465sdg
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.462745098039216 0.686274509803922 0.725490196078431
+      diffuse 0.462745098039216 0.686274509803922 0.725490196078431
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+      // texture size: 9.64566929133858, 5.51181102362205
+      texture_unit
+      {
+        texture 1404479658_1_semttuloaf.jpg
+      }
+    }
+  }
+}
+material 1404479658_16_tampa_dellinspiron_cor_reflexo_tw050hfd
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0274509803921569 0.0274509803921569 0.0274509803921569
+      diffuse 0.0274509803921569 0.0274509803921569 0.0274509803921569
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_17_letras_nume_teclas_dell_insp_s8w00gf4
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.909803921568627 0.909803921568627 0.909803921568627
+      diffuse 0.909803921568627 0.909803921568627 0.909803921568627
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_18_sd0fw8140gfaz
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.0274509803921569 0.0117647058823529 0.00784313725490196
+      diffuse 0.0274509803921569 0.0117647058823529 0.00784313725490196
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_19_cinzaesc_srw08134
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.188235294117647 0.188235294117647 0.188235294117647
+      diffuse 0.188235294117647 0.188235294117647 0.188235294117647
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_20_cinz_escura_weg045
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.262745098039216 0.290196078431373 0.290196078431373
+      diffuse 0.262745098039216 0.290196078431373 0.290196078431373
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_21_cinza_note_dell_wsd08909
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.419607843137255 0.419607843137255 0.419607843137255
+      diffuse 0.419607843137255 0.419607843137255 0.419607843137255
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_22_touch_note_dell_0jere045
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.63921568627451 0.63921568627451 0.63921568627451
+      diffuse 0.63921568627451 0.63921568627451 0.63921568627451
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_23_botao_liga_dell_insp_0yo82r4
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.686274509803922 0.686274509803922 0.686274509803922
+      diffuse 0.686274509803922 0.686274509803922 0.686274509803922
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404479658_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

@@ -1,0 +1,52 @@
+material 1404306069_1_Color_000
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 1.0 1.0 1.0
+    }
+  }
+}
+material 1404306069_2_Color_001
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 1.0 1.0 1.0
+    }
+  }
+}
+material 1404306069_3_Color_002
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 1.0 1.0 1.0
+    }
+  }
+}
+material 1404306069_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.5 0.5 0.5
+    }
+  }
+}

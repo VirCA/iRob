@@ -1,0 +1,13 @@
+material 1404730689_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

@@ -1,0 +1,117 @@
+material 1404402610_1_Color_D04
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 0.898039215686275 0.6
+      diffuse 1.0 0.898039215686275 0.6
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404402610_2_Color_D11
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.6 0.447058823529412 0.0
+      diffuse 0.6 0.447058823529412 0.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404402610_3_[Color_D07]1
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.8 0.63921568627451 0.156862745098039
+      diffuse 0.8 0.63921568627451 0.156862745098039
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404402610_4_Color_D23
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.2 0.168627450980392 0.0784313725490196
+      diffuse 0.2 0.168627450980392 0.0784313725490196
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404402610_5_Color_H05
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.8 1.0 1.0
+      diffuse 0.8 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404402610_6_Color_D06
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.8 0.6 0.0
+      diffuse 0.8 0.6 0.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404402610_7_Color_000
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404402610_8_Color_D03
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 0.847058823529412 0.396078431372549
+      diffuse 1.0 0.847058823529412 0.396078431372549
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404402610_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

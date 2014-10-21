@@ -1,0 +1,631 @@
+<scene formatVersion="1.0" upAxis="y">
+       <nodes>
+        <node name="Floor_RobotLab" >
+			<position x="0" y="-25" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Floor_RobotLab" castShadows="true" meshFile="floor.mesh"/>
+	    </node>
+        <node name="ceiling_RobotLab" >
+			<position x="0" y="398" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="ceiling_RobotLab" castShadows="false" meshFile="ceiling.mesh"/>
+	    </node>  
+        <node name="Frontwall_RobotLab" >
+			<position x="-792.5" y="199" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="-1" x="0" y="-1" z="0" />
+			<entity name="Frontwall_RobotLab" castShadows="true" meshFile="frontwall.mesh"/>
+	    </node>
+        <node name="Backwall_RobotLab" >
+            <position x="797.7" y="199" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="-1" z="0" />
+			<entity name="Backwall_RobotLab" castShadows="true" meshFile="backwall.mesh"/>
+	    </node>
+        <node name="Rightwall_RobotLab" >
+			<position x="0" y="199" z="335.5" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Rightwall_RobotLab" castShadows="true" meshFile="rightwall.mesh"/>
+	    </node>
+        <node name="Leftwall_RobotLab" >
+			<position x="0" y="199" z="-345" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Leftwall_RobotLab" castShadows="true" meshFile="leftwall.mesh"/>
+	    </node>
+        <node name="cabinet2rightwall" >
+			<position x="-497" y="45" z="193" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="cabinet2rightwall" castShadows="true" meshFile="cabinetbigright.mesh"/>
+	    </node>
+        <node name="smallcabinetrightwall" >
+			<position x="-169" y="36" z="292" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallcabinetrightwall" castShadows="true" meshFile="smallcabinetfloorright.mesh"/>
+	    </node>
+         <node name="cabinet3rightwall" >
+			<position x="50" y="45" z="280" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="cabinet3rightwall" castShadows="true" meshFile="cabinet3right.mesh"/>
+	    </node>
+        <node name="cabinet4rightwall" >
+			<position x="563" y="45" z="280" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="cabinet4rightwall" castShadows="true" meshFile="cabinet4right.mesh"/>
+	    </node>
+        <node name="cabinet1leftwall" >
+			<position x="-657" y="45" z="-207" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="cabinet1leftwall" castShadows="true" meshFile="cabinet1left.mesh"/>
+	    </node>
+        <node name="smallwallcabinet1right" >
+			<position x="-592" y="189" z="304" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallwallcabinet1right" castShadows="true" meshFile="smallwallcabinetright.mesh"/>
+	    </node>
+        <node name="bigwallcabinet1right" >
+			<position x="-389" y="189" z="304" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="bigwallcabinet1right" castShadows="true" meshFile="bigwallcabinetright.mesh"/>
+	    </node>
+        <node name="bigwallcabinet2right" >
+			<position x="43" y="189" z="304" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="bigwallcabinet2right" castShadows="true" meshFile="bigwallcabinetright.mesh"/>
+	    </node>
+        <node name="smallwallcabinet2right" >
+			<position x="436" y="189" z="304" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallwallcabinet2right" castShadows="true" meshFile="smallwallcabinetright.mesh"/>
+	    </node>
+        <node name="bigwallcabinet3right" >
+			<position x="603" y="189" z="304" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="bigwallcabinet3right" castShadows="true" meshFile="bigwallcabinetright.mesh"/>
+	    </node>
+        <node name="smallwallcabinet1front" >
+			<position x="-754" y="189" z="-206" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="-1" z="0" />
+			<entity name="smallwallcabinet1front" castShadows="true" meshFile="smallwallcabinetright.mesh"/>
+	    </node>
+        <node name="bigwallcabinet1front" >
+			<position x="-754" y="189" z="181" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="-1" z="0" />
+			<entity name="bigwallcabinet1front" castShadows="true" meshFile="bigwallcabinetright.mesh"/>
+	    </node>
+        <node name="notetable" >
+			<position x="275" y="40" z="-288.5" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="-1" z="0" />
+			<entity name="notetable" castShadows="true" meshFile="notetableleft.mesh"/>
+	    </node>
+        <node name="woodentable1" >
+			<position x="358" y="37.5" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="woodentable1" castShadows="true" meshFile="woodentable.mesh"/>
+	    </node>
+        <node name="woodentable2" >
+			<position x="236" y="37.5" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="woodentable2" castShadows="true" meshFile="woodentable.mesh"/>
+	    </node>
+        <node name="woodentable3" >
+			<position x="115" y="37.5" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="woodentable3" castShadows="true" meshFile="woodentable.mesh"/>
+	    </node>
+        <node name="robottable" >
+			<position x="-349" y="35.5" z="-90" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="robottable" castShadows="true" meshFile="bigrobottable.mesh"/>
+	    </node>
+        <node name="maindesk" >
+			<position x="-117" y="63.3" z="-90" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="maindesk" castShadows="true" meshFile="deskmainpc.mesh"/>
+	    </node>
+        <node name="deskchair" >
+			<position x="-79.5" y="40" z="-60" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="-1" z="0" />
+			<entity name="deskchair" castShadows="true" physicsType="ghost" meshFile="chairrightcabinet.mesh"/>
+	    </node>
+        <node name="notechair1" >
+			<position x="230" y="40" z="-240" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="180" z="0" />
+			<entity name="notechair1" castShadows="true" physicsType="ghost" meshFile="chairrightcabinet.mesh"/>
+	    </node>
+        <node name="notechair2" >
+			<position x="320" y="40" z="-240" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="180" z="0" />
+			<entity name="notechair2" castShadows="true" physicsType="ghost" meshFile="chairrightcabinet.mesh"/>
+	    </node>
+        <node name="chaircabinet1right" >
+			<position x="-597" y="40" z="244.5" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chaircabinet1right" castShadows="true" physicsType="ghost" meshFile="chairrightcabinet.mesh"/>
+	    </node>
+        <node name="chaircabinet2right" >
+			<position x="-354" y="40" z="244.5" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chaircabinet2right" castShadows="true" physicsType="ghost" meshFile="chairrightcabinet.mesh"/>
+	    </node>
+        <node name="chaircabinet3right" >
+			<position x="169" y="40" z="244.5" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chaircabinet3right" castShadows="true" physicsType="ghost" meshFile="chairrightcabinet.mesh"/>
+	    </node>
+        <node name="chaircabinet4right" >
+			<position x="473" y="40" z="244.5" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chaircabinet4right" castShadows="true" physicsType="ghost" meshFile="chairrightcabinet.mesh"/>
+	    </node>
+        <node name="chaircabinet5right" >
+			<position x="653" y="40" z="244.5" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chaircabinet5right" castShadows="true" physicsType="ghost" meshFile="chairrightcabinet.mesh"/>
+	    </node>
+        <node name="chairwoodentable1right" >
+			<position x="388" y="45" z="-45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable1right" castShadows="true" physicsType="ghost" meshFile="chairwoodentableleft.mesh"/>
+	    </node>
+        <node name="chairwoodentable2right" >
+			<position x="328" y="45" z="-45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable2right" castShadows="true" physicsType="ghost" meshFile="chairwoodentableleft.mesh"/>
+	    </node>
+        <node name="chairwoodentable3right" >
+			<position x="266" y="45" z="-45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable3right" castShadows="true" physicsType="ghost" meshFile="chairwoodentableleft.mesh"/>
+	    </node>
+        <node name="chairwoodentable4right" >
+			<position x="216" y="45" z="-45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable4right" castShadows="true" physicsType="ghost" meshFile="chairwoodentableleft.mesh"/>
+	    </node>
+        <node name="chairwoodentable5right" >
+			<position x="150" y="45" z="-45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable5right" castShadows="true" physicsType="ghost" meshFile="chairwoodentableleft.mesh"/>
+	    </node>
+        <node name="chairwoodentable6right" >
+			<position x="90" y="45" z="-45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable6right" castShadows="true" physicsType="ghost" meshFile="chairwoodentableleft.mesh"/>
+	    </node>
+        <node name="chairwoodentable1left" >
+			<position x="388" y="45" z="45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable1left" castShadows="true" physicsType="ghost" meshFile="chairwoodentablerigt.mesh"/>
+	    </node>
+        <node name="chairwoodentable2left" >
+			<position x="328" y="45" z="45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable2left" castShadows="true" physicsType="ghost" meshFile="chairwoodentablerigt.mesh"/>
+	    </node>
+        <node name="chairwoodentable3left" >
+			<position x="266" y="45" z="45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable3left" castShadows="true" physicsType="ghost" meshFile="chairwoodentablerigt.mesh"/>
+	    </node>
+        <node name="chairwoodentable4left" >
+			<position x="216" y="45" z="45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable4left" castShadows="true" physicsType="ghost" meshFile="chairwoodentablerigt.mesh"/>
+	    </node>
+        <node name="chairwoodentable5left" >
+			<position x="150" y="45" z="45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable5left" castShadows="true" physicsType="ghost" meshFile="chairwoodentablerigt.mesh"/>
+	    </node>
+        <node name="chairwoodentable6left" >
+			<position x="90" y="45" z="45" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="chairwoodentable6left" castShadows="true" physicsType="ghost" meshFile="chairwoodentablerigt.mesh"/>
+	    </node>
+        <node name="Bigpuglin1" >
+			<position x="-707" y="120" z="312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Bigpuglin1" castShadows="true" meshFile="bigpluginright.mesh"/>
+	    </node>
+        <node name="smallpuglin1" >
+			<position x="-485.5" y="120" z="312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallpuglin1" castShadows="true" meshFile="smallpluginleft.mesh"/>
+	    </node>
+        <node name="Bigpuglin2" >
+			<position x="-272" y="120" z="312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Bigpuglin2" castShadows="true" meshFile="bigpluginright.mesh"/>
+	    </node>
+        <node name="smallpuglin2" >
+			<position x="-74.5" y="120" z="312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallpuglin2" castShadows="true" meshFile="smallpluginleft.mesh"/>
+	    </node>           
+        <node name="Bigpuglin3" >
+			<position x="178" y="120" z="312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Bigpuglin3" castShadows="true" meshFile="bigpluginright.mesh"/>
+	    </node>
+        <node name="smallpuglin3" >
+			<position x="370.5" y="120" z="312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallpuglin3" castShadows="true" meshFile="smallpluginleft.mesh"/>
+	    </node>
+        <node name="Bigpuglin4" >
+			<position x="516" y="120" z="312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Bigpuglin4" castShadows="true" meshFile="bigpluginright.mesh"/>
+	    </node> 
+        <node name="smallpuglin4" >
+			<position x="636.5" y="120" z="312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallpuglin4" castShadows="true" meshFile="smallpluginleft.mesh"/>
+	    </node>
+        <node name="Bigpuglin1back" >
+			<position x="765" y="120" z="129" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Bigpuglin1back" castShadows="true" meshFile="bigpluginback.mesh"/>
+	    </node> 
+        <node name="smallpuglin1back" >
+			<position x="765" y="52" z="-305" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallpuglin1back" castShadows="true" meshFile="smallpluginback.mesh"/>
+	    </node>
+        <node name="smallpuglin1left" >
+			<position x="616.5" y="52" z="-312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallpuglin1left" castShadows="true" meshFile="smallpluginright.mesh"/>
+	    </node>
+        <node name="Bigpuglin1left" >
+			<position x="394" y="52" z="-312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Bigpuglin1left" castShadows="true" meshFile="bigpluginleft.mesh"/>
+	    </node>
+        <node name="smallpuglin2left" >
+			<position x="135.5" y="52" z="-312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallpuglin2left" castShadows="true" meshFile="smallpluginright.mesh"/>
+	    </node>
+        <node name="Bigpuglin2left" >
+			<position x="-140" y="52" z="-312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Bigpuglin2left" castShadows="true" meshFile="bigpluginleft.mesh"/>
+	    </node>
+        <node name="smallpuglin3left" >
+			<position x="-278.5" y="52" z="-312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="smallpuglin3left" castShadows="true" meshFile="smallpluginright.mesh"/>
+	    </node>
+        <node name="Bigpuglin3left" >
+			<position x="-493" y="52" z="-312" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="Bigpuglin3left" castShadows="true" meshFile="bigpluginleft.mesh"/>
+	    </node>
+        <node name="heaterdevice1" >
+			<position x="495" y="45" z="-307" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="180" z="0" />
+			<entity name="heaterdevice1" castShadows="true" meshFile="heater.mesh"/>
+	    </node>
+        <node name="heaterdevice2" >
+			<position x="-22.5" y="45" z="-307" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="180" z="0" />
+			<entity name="heaterdevice2" castShadows="true" meshFile="heater2.mesh"/>
+	    </node>
+        <node name="heaterdevice3" >
+			<position x="-400.5" y="45" z="-307" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="180" z="0" />
+			<entity name="heaterdevice3" castShadows="true" meshFile="heater.mesh"/>
+	    </node>
+        <node name="lamp1" >
+			<position x="-623" y="393" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp1" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp2" >
+			<position x="-473" y="393" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp2" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp3" >
+			<position x="-323" y="393" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp3" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp4" >
+			<position x="-173" y="393" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp4" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp5" >
+			<position x="-23" y="393" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp5" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp6" >
+			<position x="127" y="393" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp6" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp7" >
+			<position x="277" y="393" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp7" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp8" >
+			<position x="427" y="393" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp8" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp9" >
+			<position x="577" y="393" z="0" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp9" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp10" >
+			<position x="-623" y="393" z="-150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp10" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp11" >
+			<position x="-473" y="393" z="-150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp11" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp12" >
+   		    <position x="-323" y="393" z="-150" />
+		 	<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp12" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp13" >
+			<position x="-173" y="393" z="-150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp13" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp14" >
+			<position x="-23" y="393" z="-150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp14" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp15" >
+			<position x="127" y="393" z="-150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp15" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp16" >
+			<position x="277" y="393" z="-150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp16" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp17" >
+			<position x="427" y="393" z="-150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp17" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp18" >
+			<position x="577" y="393" z="-150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp18" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp19" >
+			<position x="-623" y="393" z="150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp19" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp20" >
+			<position x="-473" y="393" z="150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp20" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp21" >
+			<position x="-323" y="393" z="150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp21" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp22" >
+			<position x="-173" y="393" z="150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp22" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp23" >
+			<position x="-23" y="393" z="150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp23" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp24" >
+			<position x="127" y="393" z="150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp24" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp25" >
+			<position x="277" y="393" z="150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp25" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp26" >
+			<position x="427" y="393" z="150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp26" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>
+        <node name="lamp27" >
+			<position x="577" y="393" z="150" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="1" x="0" y="0" z="0" />
+			<entity name="lamp27" castShadows="false" meshFile="lampceiling.mesh"/>
+		</node>	
+		<node name="beach" >
+			<position x="0" y="250" z="-650" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="0.7071" x="0" y="-0.7071" z="0" />
+			<plane name="beach" castShadows="true"  distance="0" width="2856" height="600" xSegments="1" ySegments="1" numTexCoordSets="1" uTile="1" vTile="1" material="beach" normals="true" movablePlane="false">
+				<normal x="1" y="0" z="0" />
+				<upVector x="0" y="0" z="-1" />
+			</plane>
+		</node>
+		<node name="beachbase" >
+			<position x="0" y="-50" z="-650" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="0.7071" x="0" y="0" z="0.7071" />
+			<plane name="beachbase" castShadows="true"  distance="0" width="600" height="2856" xSegments="1" ySegments="1" numTexCoordSets="1" uTile="1" vTile="1" material="beachbase" normals="true" movablePlane="false">
+				<normal x="1" y="0" z="0" />
+				<upVector x="0" y="0" z="-1" />
+			</plane>
+		</node>
+		<node name="beachsky" >
+			<position x="0" y="600" z="-650" />
+			<scale x="1" y="1" z="1" />
+			<rotation w="0.7071" x="0" y="0" z="-0.7071" />
+			<plane name="beachsky" castShadows="true"  distance="0" width="500" height="2856" xSegments="1" ySegments="1" numTexCoordSets="1" uTile="1" vTile="1" material="beachsky" normals="true" movablePlane="false">
+				<normal x="1" y="0" z="0" />
+				<upVector x="0" y="0" z="-1" />
+			</plane>
+		</node>			
+		<node name="LightSource1" >
+			<light name="LightSource1" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="-553" y="800" z="-200" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="2000" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node>
+		<node name="LightSource2" >
+			<light name="LightSource2" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="-553" y="800" z="100" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="2000" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node>
+		<node name="LightSource3" >
+			<light name="LightSource3" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="507" y="800" z="-200" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="2000" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node> 		
+		<node name="LightSource4" >
+			<light name="LightSource4" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="507" y="800" z="100" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="2000" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node> 
+		<node name="LightSource5" >
+			<light name="LightSource5" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="23" y="800" z="-200" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="2000" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node> 		
+		<node name="LightSource6" >
+			<light name="LightSource6" parentNodeName="" visible="true" type="spot" power="1">
+				<position x="23" y="800" z="100" />
+				<direction x="0" y="-1" z="0" />
+				<colourDiffuse r="0.8" g="0.8" b="0.8" />
+				<colourSpecular r="0.5" g="0.5" b="0.5" />
+				<lightRange inner="30" outer="90" falloff="2"/>
+				<lightAttenuation mode="manual" range="2000" constant="1.5" linear="0" quadratic="0" />
+			</light>
+		</node> 		
+	</nodes>
+</scene>

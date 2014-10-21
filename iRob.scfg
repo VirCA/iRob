@@ -1,0 +1,23 @@
+<virca version="0.2.x" room="iRob" desc="iRob room settings">
+	<light>
+		<ambientcolor r="0.45" g="0.45" b="0.45"/>
+		<shadow quality="2048" type="RTSS_NOSHADOW" lightCount="6"/> <!--quality (shadow texture size): '2048', '1024', '512', '256'--> <!--type: 'DepthShadowMap' ; 'DAVE' ; 'RTSS_NOSHADOW'--> <!--lightCount: '0-8'-->
+	</light>
+	<pointer length="50" mindistancefromwall="26">
+		<origin x="0" y="180" z="0"/>
+		<direction pitch="70" yaw="0"/>
+	</pointer>
+	<physlimits>
+		<xlimit min="-772.5" max="772.5"/>
+		<ylimit min="0" max="398"/> <!--height-->
+		<zlimit min="-322" max="322"/>
+	</physlimits>
+	<camera name="defaultCamera" init_mode="1" fov="45" p3dwalldistanceoverhead="30">
+		<position x="0" y="114" z="0"/>
+		<rotation qx="0" qy="0" qz="0" qw="1"/>
+		<clipping near="1" far="10000"/>
+	</camera>
+	<browser>
+		<homepage url="www.virca.hu"/>
+	</browser>
+</virca>

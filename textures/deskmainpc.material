@@ -1,0 +1,264 @@
+material 1404481142_1_<auto>4
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.117647058823529 0.117647058823529 0.12156862745098
+      diffuse 0.117647058823529 0.117647058823529 0.12156862745098
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+      // texture size: 1.0, 1.0
+      texture_unit
+      {
+        texture 1404481142_6_texture_2.png
+      }
+    }
+  }
+}
+material 1404481142_2_<auto>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.117647058823529 0.117647058823529 0.117647058823529
+      diffuse 0.117647058823529 0.117647058823529 0.117647058823529
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_3_Color_007
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.227450980392157 0.227450980392157 0.227450980392157
+      diffuse 0.227450980392157 0.227450980392157 0.227450980392157
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_4_Color_000
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_5_Metal_Aluminum_Anodized
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.792156862745098 0.819607843137255 0.858823529411765
+      diffuse 0.792156862745098 0.819607843137255 0.858823529411765
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+      // texture size: 54.0, 54.0
+      texture_unit
+      {
+        texture 1404480840_1_Metal_Aluminum_Anodized.jpg
+      }
+    }
+  }
+}
+material 1404481142_6_Color_001
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.886274509803922 0.886274509803922 0.886274509803922
+      diffuse 0.886274509803922 0.886274509803922 0.886274509803922
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_7_Color_002
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.776470588235294 0.776470588235294 0.776470588235294
+      diffuse 0.776470588235294 0.776470588235294 0.776470588235294
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_8_<auto>5
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.12156862745098 0.125490196078431 0.137254901960784
+      diffuse 0.12156862745098 0.125490196078431 0.137254901960784
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+      // texture size: 1.0, 1.0
+      texture_unit
+      {
+        texture 1404481142_2_texture_3.png
+      }
+    }
+  }
+}
+material 1404481142_9_0136_Charcoal
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.137254901960784 0.137254901960784 0.137254901960784
+      diffuse 0.137254901960784 0.137254901960784 0.137254901960784
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_10_<auto>1
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.101960784313725 0.105882352941176 0.113725490196078
+      diffuse 0.101960784313725 0.105882352941176 0.113725490196078
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+      // texture size: 1.0, 1.0
+      texture_unit
+      {
+        texture 1404481142_3_texture.png
+      }
+    }
+  }
+}
+material 1404481142_11_<Silver>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.752941176470588 0.752941176470588 0.752941176470588
+      diffuse 0.752941176470588 0.752941176470588 0.752941176470588
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_12_<auto>3
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.12156862745098 0.12156862745098 0.12156862745098
+      diffuse 0.12156862745098 0.12156862745098 0.12156862745098
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+      // texture size: 1.0, 1.0
+      texture_unit
+      {
+        texture 1404481142_5_texture_1.png
+      }
+    }
+  }
+}
+material 1404481142_13_<Charcoal>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.137254901960784 0.137254901960784 0.137254901960784
+      diffuse 0.137254901960784 0.137254901960784 0.137254901960784
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_14_Color_C16
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.4 0.2 0.0
+      diffuse 0.4 0.2 0.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_15_Color_006
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.337254901960784 0.337254901960784 0.337254901960784
+      diffuse 0.337254901960784 0.337254901960784 0.337254901960784
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_16_<auto>2
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.141176470588235 0.149019607843137 0.172549019607843
+      diffuse 0.141176470588235 0.149019607843137 0.172549019607843
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+      // texture size: 1.0, 1.0
+      texture_unit
+      {
+        texture 1404481142_4_texture_0.png
+      }
+    }
+  }
+}
+material 1404481142_17_Color_008
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.117647058823529 0.117647058823529 0.117647058823529
+      diffuse 0.117647058823529 0.117647058823529 0.117647058823529
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404481142_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

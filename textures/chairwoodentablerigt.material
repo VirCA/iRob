@@ -1,0 +1,39 @@
+material 1404425776_1_<LightGray>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.662745098039216 0.662745098039216 0.662745098039216
+      diffuse 0.662745098039216 0.662745098039216 0.662745098039216
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404425776_2_<Charcoal>
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.137254901960784 0.137254901960784 0.137254901960784
+      diffuse 0.137254901960784 0.137254901960784 0.137254901960784
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404425776_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}

@@ -1,0 +1,39 @@
+material 1404722353_1_Material11
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.509803921568627 0.509803921568627 0.588235294117647
+      diffuse 0.509803921568627 0.509803921568627 0.588235294117647
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404722353_2_Color_002
+{
+  technique
+  {
+    pass
+    {
+      ambient 0.776470588235294 0.776470588235294 0.776470588235294
+      diffuse 0.776470588235294 0.776470588235294 0.776470588235294
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
+material 1404722353_SketchupDefault
+{
+  technique
+  {
+    pass
+    {
+      ambient 1.0 1.0 1.0
+      diffuse 1.0 1.0 1.0
+      specular 0.0 0.0 0.0 0.0
+      emissive 0.0 0.0 0.0
+    }
+  }
+}
